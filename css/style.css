@@ -81,8 +81,8 @@ min-height: 250px;
 
 
 /* DEBUG */
-.debug .container, .flex, .item  {
+ .debug .container, .flex, .item  {
     border: 1px dotted black;
     padding: 12px; 
-}
+} 
 
