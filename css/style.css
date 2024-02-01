@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+
+}
+.flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 10px;
+}
+.item{
+    min-height: 20px;
+}
+
+.section{
+    padding: 8px;
+}
+.fgr30{
+   flex-grow: 1;
+}
+.bg__violet{
+    background-color: violet;
+    min-width: 300px;
+    min-height: 150px;
+   
+}
+.bg__acq-m{
+    background-color: aquamarine;
+}
+.bg__blue{
+    background-color: blue;
+}
+.bg__yellow-item{
+    background-color: yellow;
+    min-height: 15px; 
+   
+}
+.bg__grey{
+    background: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+.debug .container, .flex, .item  {
+    border: 1px solid black;
+    padding: 12px; 
+}
+
