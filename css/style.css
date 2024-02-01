@@ -3,33 +3,41 @@
     margin:0;
     padding:0;
 }
+/* LAYOUT */
 .container{
     max-width: 950px;
     margin: 0 auto;
 
 }
-.flex{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-height: 10px;
+
+.flex{  
+  display: flex;
+  justify-content: center;
+    
+}
+.row-rev{
+    flex-direction: row-reverse;
+}
+.sp-between{
+    justify-content: space-between;
 }
 .item{
-    min-height: 20px;
+    min-width: 100px;
+    min-height: 50px;
 }
-
-.section{
-    padding: 8px;
+.hero{
+    padding: 24px;
+}
+.hero .flex {
+   align-items: center;
 }
 .fgr30{
    flex-grow: 1;
 }
+
+/* UTILITY */
 .bg__violet{
     background-color: violet;
-    min-width: 300px;
-    min-height: 150px;
-   
 }
 .bg__acq-m{
     background-color: aquamarine;
@@ -39,27 +47,42 @@
 }
 .bg__yellow-item{
     background-color: yellow;
-    min-height: 15px; 
-   
+    min-height: 10px; 
 }
 .bg__grey{
-    background: grey;
+    background: rgb(175, 175, 175);
 }
-
-
-
-
-
-
-
-
+.bg__lightblue{
+    background-color: rgb(103, 103, 245);
+}
+.bg__green {
+    background: green;
+}
+.bg__red{
+    background: red;
+}
+.bg__black{
+    background: rgb(51, 44, 44);
+}
+.col-60{
+    width: 60%;
+}
+.col-40{
+    width: 40%;
+}
+.minhg-250{
+min-height: 250px;
+}
+.minwdt-400{
+    min-width:400px;
+}
 
 
 
 
 /* DEBUG */
 .debug .container, .flex, .item  {
-    border: 1px solid black;
+    border: 1px dotted black;
     padding: 12px; 
 }
 
